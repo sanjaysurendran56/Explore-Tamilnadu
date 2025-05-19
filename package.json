@@ -1,7 +1,7 @@
 {
   "name": "ecommerce",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://sanjaysurendran56.github.io/Explore-Tamilnadu",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -29,8 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
